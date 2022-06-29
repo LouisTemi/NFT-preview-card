@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.container{
+    margin: 0 auto;
+    width: 300px;
+    height: 530px;
+    border-radius: 10px;
+    max-width: 390px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 3%;
+    margin: 0 auto;
+}
+.equilibrum{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.eth-time{
+    display: flex;
+    justify-content: space-between;
+}
+.time, .eth{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+.break-line{
+    width: 100%;
+    margin: 1em 0;
+    border: 0.1px solid hsl(215, 32%, 27%);
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.avatar{
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.07rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* TYPOGRAPHY */
+h3{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.julius{
+    color: white;
+}
+p, .time{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.eth{
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
